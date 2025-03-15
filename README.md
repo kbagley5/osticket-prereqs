@@ -81,17 +81,20 @@ To verify that IIS is installed and enabled, open a browser and navigate to 127.
 
 
 <p>
-<img src="https://i.imgur.com/5iUtgMR.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
+<img src="https://imgur.com/J3AILEQ.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <p>
 
 5.) With IIS now enabled, proceed to download and install the PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) from the Installation Files. Follow the installation wizard to completion.
 
-  
+<p>
+<img src="https://i.imgur.com/7CKKobF.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
 6.) Then, from the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi).
 
 <p>
-<img src="https://i.imgur.com/XAaVYBb.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WUWLs9Z.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
@@ -106,13 +109,13 @@ If prompted, select "Keep" to retain the file
 <img src="https://imgur.com/xZv1Yhw.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  
-<p>
-<img src="https://i.imgur.com/xNLGioY.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 
 9.) After downloading and extracting the zip file into the PHP folder on the C drive, proceed to download and install VC_redist.x86.exe from the installation files. Complete the setup by following the setup wizard for VC_redist.x86.exe.
+
+<p>
+<img src="https://imgur.com/sGDpqbL.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 10.) Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi). Execute the setup wizard with the following steps:
 - Choose Typical Setup
@@ -122,11 +125,21 @@ If prompted, select "Keep" to retain the file
 Set the new root password to 'Password1'.
 
 <p>
-<img src="https://i.imgur.com/uDqgmb4.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eds9E1o.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+<p>
+<img src="https://i.imgur.com/CMcsc6a.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 11.) Having downloaded and installed the files, we should now search for IIS in the Windows search bar. Open IIS with administrator privileges. The program interface should appear as expected.
+
+<p>
+<img src="https://i.imgur.com/gBMdeNt.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
 12.) We now need to register PHP within IIS.
 - Click on the PHP Manager
@@ -139,6 +152,11 @@ Set the new root password to 'Password1'.
   - Extract and copy the "upload" folder to c:\inetpub\wwwroot.
   - Within c:\inetpub\wwwroot, rename "upload" to "osTicket".
 
+<p>
+<img src="https://i.imgur.com/kXKLpZ4.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
   Reload IIS.
 
 14.) In IIS, navigate to Sites -> Default Web Site -> osTicket:
@@ -146,11 +164,6 @@ Set the new root password to 'Password1'.
 
 <p>
 <img src="https://imgur.com/Yw55d5b.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-<p>
-<img src="https://i.imgur.com/B0RtSMb.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -162,7 +175,7 @@ To enable the extensions:
 - Choose "Enable or disable an extension."
 
 <p>
-<img src="https://i.imgur.com/ibblmPF.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tgleJCd.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -173,7 +186,7 @@ To proceed, we need to enable three extensions:
 3. php_opcache.dll
 
 <p>
-<img src="https://i.imgur.com/ovFFgCl.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xuW1oAe.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
